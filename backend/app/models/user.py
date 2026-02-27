@@ -6,6 +6,7 @@ from sqlalchemy import DateTime
 from sqlmodel import Field, Relationship, SQLModel
 
 
+
 def get_datetime_utc() -> datetime:
     return datetime.now(timezone.utc)
 
